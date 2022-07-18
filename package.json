@@ -1,11 +1,10 @@
 {
   "name": "loadero-js-client",
-  "version": "0.1.1",
-  "description": "",
+  "version": "1.0.0",
+  "description": "generated client for loadero api based swagger definition",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "test": "node --experimental-vm-modules node_modules/.bin/jest"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -17,10 +16,8 @@
     "url": "https://github.com/smashcut/loadero-js-client/issues"
   },
   "homepage": "https://github.com/smashcut/loadero-js-client#readme",
-  "devDependencies": {
-    "jest": "^28.1.3"
-  },
   "dependencies": {
-    "axios": "^0.27.2"
+    "q": "^1.5.1",
+    "request": "^2.88.2"
   }
 }
